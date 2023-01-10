@@ -1,10 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Rick Liu</title>
+    <link rel="icon" href="images/logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@100;300;400;500;700&family=Rubik+Distressed&family=Saira+Extra+Condensed:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        section#introduction {
+            padding-left: 5vw;
+        }
+
+        img#intro_pic {
+            height: 100vh;
+            float: right;
+            margin-left: 5vw;
+        }
+        h1.intro {
+            display: inline-block;
+            font-family: 'Saira Extra Condensed', sans-serif;
+            font-weight: 700;
+            font-size: calc(1rem + 6vw);
+            margin-top: 12vh;
+        }
+        h1.intro#a {color: #2c3135;}
+        h1.intro#b {
+            color: #152b90;
+            margin-left: 12px;
+        }
+        p.info {
+            font-family: 'Saira Extra Condensed', sans-serif;
+            font-weight: 500;
+            color: #6c757d;
+        }
+        p.info.a {font-size: 1.5rem;}
+        p.info.b {
+            font-size: 1.15rem;
+            font-weight: 400;
+            font-family: 'Mulish', sans-serif;
+        }
+        a#mail {color: #152b90;}
+        i {
+            color: black;
+        }
+        .social-icons .social-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            height: 3.5rem;
+            width: 3.5rem;
+            background-color: #495057;
+            color: #fff;
+            border-radius: 100%;
+            font-size: 1.5rem;
+            margin-right: 1.5rem;
+        }
+        .social-icons .social-icon:last-child {
+            margin-right: 0;
+        }
+        .social-icons .social-icon:hover {
+            background-color: #0b3e82 ;
+        }
+        i.fa-brands, i.fab {
+            color: white;
+        }
+        a.social-icon {
+            text-decoration: none;
+            margin-top: 10vh;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Today is 2023 Jan 8</h1>
-</body></html>
+</body>
+    <section id="introduction">
+        <img src="images/picture_info.jpg" alt="pic1" id="intro_pic">
+        <h1 class="intro" id="a">RICK</h1><h1 class="intro" id="b">LIU</h1>
+        <div class="intro">
+            <p class="info a">BARRIE, CANADA · +1 (249) 359-6638 · <a id="mail" href="mailto:RICKLIU042@GMAIL.COM">RICKLIU042@GMAIL.COM</a></p>
+        </div>
+        <div class="intro">
+            <p class="info a">JINGAN DISTRICT, SHANGHAI, CHINA · +86 153-1790-1029 · <a id="mail" href="mailto:RICK1029@126.COM">RICK1029@126.COM</a></p>
+        </div>
+        <p class="info b">A 15-year-old boy who was born in China. Planned to continue my studies in Canada. </p><br><p class="info b">Major in Math, Computer Science.</p>
+        <div class="social-icons">
+            <a class="social-icon" href="https://www.instagram.com/rickliu042/"><i class="fab fa-linkedin-in"></i></a>
+            <a class="social-icon" href="images/wechat.JPG"><i class="fa-brands fa-weixin"></i></a>
+            <a class="social-icon" href="https://discord.gg/QwyP2vmp"><i class="fa-brands fa-discord"></i></a>
+            <a class="social-icon" href="https://twitter.com/minrui_liu"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </section>
+</html>
