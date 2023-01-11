@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <title>Rick Liu</title>
     <link rel="icon" href="images/logo.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@100;300;400;500;700&family=Rubik+Distressed&family=Saira+Extra+Condensed:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -26,6 +28,7 @@
             float: right;
             margin-left: 5vw;
         }
+
         h1.intro {
             display: inline-block;
             font-family: 'Saira Extra Condensed', sans-serif;
@@ -33,23 +36,36 @@
             font-size: calc(1rem + 6vw);
             margin-top: 12vh;
         }
-        h1.intro#a {color: #2c3135;}
+
+        h1.intro#a {
+            color: #2c3135;
+        }
+
         h1.intro#b {
             color: #152b90;
             margin-left: 12px;
         }
+
         p.info {
             font-family: 'Saira Extra Condensed', sans-serif;
             font-weight: 500;
             color: #6c757d;
         }
-        p.info.a {font-size: 1.5rem;}
+
+        p.info.a {
+            font-size: 1.5rem;
+        }
+
         p.info.b {
             font-size: 1.15rem;
             font-weight: 400;
             font-family: 'Mulish', sans-serif;
         }
-        a#mail {color: #152b90;}
+
+        a#mail {
+            color: #152b90;
+        }
+
         .social-icons .social-icon {
             display: inline-flex;
             align-items: center;
@@ -62,23 +78,36 @@
             font-size: 1.5rem;
             margin-right: 1.5rem;
         }
-        .social-icons .social-icon:last-child {margin-right: 0;}
-        .social-icons .social-icon:hover {background-color: #0b3e82 ;}
-        i.fa-brands, i.fab {color: white;}
+
+        .social-icons .social-icon:last-child {
+            margin-right: 0;
+        }
+
+        .social-icons .social-icon:hover {
+            background-color: #0b3e82;
+        }
+
+        i.fa-brands,
+        i.fab {
+            color: white;
+        }
+
         a.social-icon {
             text-decoration: none;
             margin-top: 10vh;
+            transition: 0.2s;
         }
+
         hr#sep {
             width: 100vw;
             color: #dbdddf;
             height: 0.1px;
         }
+
         section#edu {
-            padding: 0 7vw;
-            padding-top: 5vh;
-            padding-bottom: 10vh;
+            padding: 10vh 7vw;
         }
+
         h2.edu {
             font-family: 'Mulish', sans-serif;
             font-weight: 700;
@@ -87,6 +116,7 @@
             color: #333333;
             vertical-align: middle;
         }
+
         hr#edu {
             display: inline-block;
             width: 10vw;
@@ -94,13 +124,18 @@
             margin-left: 10px;
             margin-right: 10px;
         }
-        #edu-main-title {text-align: center;}
+
+        #edu-main-title {
+            text-align: center;
+        }
+
         h3.edu-t {
             font-family: 'Mulish', sans-serif;
             font-weight: 700;
             font-size: 23px;
             margin-top: 20px;
         }
+
         div.edu-st {
             font-family: 'Mulish', sans-serif;
             font-weight: 700;
@@ -108,6 +143,7 @@
             color: #6c757d;
             margin-top: 10px;
         }
+
         span.edu-time {
             display: block;
             font-family: 'Mulish', sans-serif;
@@ -118,6 +154,7 @@
             margin-top: 10px;
             margin-bottom: 5px;
         }
+
         p.edu-text {
             display: block;
             font-family: 'Mulish', sans-serif;
@@ -125,94 +162,208 @@
             font-size: 18px;
             color: #50555c;
         }
+
         img.edu {
             width: 100px;
             float: left;
             margin-right: 15px;
+            transition: 0.5s;
+        }
+
+        img.edu:hover {
+            box-shadow: 0 0 10px gray;
+        }
+
+        div.edu-main {
+            margin: 5vh 0;
+        }
+
+        section#achievement {
+            padding-top: 10vh;
+            text-align: center;
+        }
+
+        img#aus {
+            margin-top: 2vh;
+            width: 80vw;
+            transition: 0.2s;
+        }
+
+        img#aus:hover {
+            filter: brightness(80%);
+        }
+
+        div.ach-p {
+            text-align: left;
+            margin: 0 10vw;
+            color: #333333;
+        }
+
+        p.ach {
+            margin-top: 6vh;
+        }
+
+        p.ach,
+        p.ach-sub {
+            font-family: 'Mulish', sans-serif;
+            font-weight: 500;
+            font-size: 18px;
+            color: #50555c;
+        }
+
+        p.ach-sub {
+            font-size: 15px;
+            font-style: italic;
+            margin-top: 6px;
+            display: inline-block;
+        }
+
+        p.ach-sub.A {
+            float: right;
+        }
+
+        p.ach-sub.B {
+            float: right;
+            font-size: 12px;
+        }
+
+        a#ach {
+            color: #152b90;
+            text-decoration: none;
+        }
+
+        p.ach.A {
+            font-size: 21px;
+            color: #333333;
+        }
+
+        p.ach.C {
+            margin-bottom: 5vh;
+        }
+
+        img.ml {
+            margin-top: 4vh;
+            width: 39vw;
+            transition: 0.2s;
+        }
+
+        img.ml:hover {
+            transform: scale(1.1);
+        }
+
+        p.ach.D {
+            margin-top: 4vh;
         }
     </style>
 </head>
 
 <body>
 </body>
-    <section id="introduction">
-        <img src="images/picture_info.jpg" alt="pic1" id="intro_pic">
-        <h1 class="intro" id="a">RICK</h1><h1 class="intro" id="b">LIU</h1>
-        <div class="intro">
-            <p class="info a">BARRIE, CANADA · +1 (249) 359-6638 · <a id="mail" href="mailto:RICKLIU042@GMAIL.COM">RICKLIU042@GMAIL.COM</a></p>
+<section id="introduction">
+    <img src="images/picture_info.jpg" alt="pic1" id="intro_pic">
+    <h1 class="intro" id="a">RICK</h1>
+    <h1 class="intro" id="b">LIU</h1>
+    <div class="intro">
+        <p class="info a">BARRIE, CANADA · +1 (249) 359-6638 · <a id="mail" href="mailto:RICKLIU042@GMAIL.COM">RICKLIU042@GMAIL.COM</a></p>
+    </div>
+    <div class="intro">
+        <p class="info a">JINGAN DISTRICT, SHANGHAI, CHINA · +86 153-1790-1029 · <a id="mail" href="mailto:RICK1029@126.COM">RICK1029@126.COM</a></p>
+    </div>
+    <p class="info b">A 15-year-old boy who was born in China. Planned to continue my studies in Canada. </p><br>
+    <p class="info b">Major in Math, Science, and Computer Science.</p>
+    <div class="social-icons">
+        <a class="social-icon" href="https://www.instagram.com/rickliu042/"><i class="fab fa-linkedin-in"></i></a>
+        <a class="social-icon" href="images/wechat.JPG"><i class="fa-brands fa-weixin"></i></a>
+        <a class="social-icon" href="https://discord.gg/QwyP2vmp"><i class="fa-brands fa-discord"></i></a>
+        <a class="social-icon" href="https://twitter.com/minrui_liu"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+</section>
+<hr id="sep">
+<section id="edu">
+    <div id="edu-main-title">
+        <hr id="edu">
+        <h2 class="edu">Education</h2>
+        <hr id="edu">
+    </div>
+    <div class="edu-main">
+        <div class="edu-sub">
+            <a href="http://www.jazbsx.com/"><img src="images/sy.jpg" alt="pic" class="edu"></a>
+            <h3 class="edu-t">Jingan District Zhabei Experimental Primary School</h3>
+            <div class="edu-st">Primary School</div>
+            <span class="edu-time">September 2014 - June 2019</span>
+            <p class="edu-text">The beginning of learning. The teachers taught me very well and I learned a lot. There were a lot of after school activities, I was in band, competition classes, etc. I miss the easy elementary school days.</p>
         </div>
-        <div class="intro">
-            <p class="info a">JINGAN DISTRICT, SHANGHAI, CHINA · +86 153-1790-1029 · <a id="mail" href="mailto:RICK1029@126.COM">RICK1029@126.COM</a></p>
+    </div>
+    <div class="edu-main">
+        <div class="edu-sub">
+            <a href="https://www.wflms.cn/site/site1/index.html"><img src="images/wfla.jpg" alt="pic" class="edu"></a>
+            <h3 class="edu-t">Shanghai World Foreign Language Academy</h3>
+            <div class="edu-st">Junior High School</div>
+            <span class="edu-time">September 2019 - June 2022</span>
+            <p class="edu-text">Time to study hard. Most middle schools in Shanghai are very tiring and boring, but not our school. Although the name of our school seems to be on the international side, subjects like math are not bad at all. In fact, I skyrocketed in math at this school. The thing that helped me the most in my three years of middle school was English. Our school focused a lot on English and had very good English teachers, so my English also took a quantum leap.</p>
         </div>
-        <p class="info b">A 15-year-old boy who was born in China. Planned to continue my studies in Canada. </p><br><p class="info b">Major in Math, Science, and Computer Science.</p>
-        <div class="social-icons">
-            <a class="social-icon" href="https://www.instagram.com/rickliu042/"><i class="fab fa-linkedin-in"></i></a>
-            <a class="social-icon" href="images/wechat.JPG"><i class="fa-brands fa-weixin"></i></a>
-            <a class="social-icon" href="https://discord.gg/QwyP2vmp"><i class="fa-brands fa-discord"></i></a>
-            <a class="social-icon" href="https://twitter.com/minrui_liu"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+    <div class="edu-main">
+        <div class="edu-sub">
+            <a href="http://eas.scdsb.on.ca/"><img src="images/ess.jpg" alt="pic" class="edu"></a>
+            <h3 class="edu-t">Eastview Secondary School</h3>
+            <div class="edu-st">Secondary School</div>
+            <span class="edu-time">September 2022 - Present</span>
+            <p class="edu-text">This was my first secondary school in Canada, and I felt a different kind of education here than in China. The education here is very relaxed, so it gives me a lot of time to do other things I like to do after school. I used my time to learn programming and made this webpage.</p>
         </div>
-    </section>
+    </div>
+    <div class="edu-main">
+        <div class="edu-sub">
+            <a href="https://www.hiworld.com/"><img src="images/xes.jpg" alt="pic" class="edu"></a>
+            <h3 class="edu-t">Xueersi (学而思)</h3>
+            <div class="edu-st">After-School Program</div>
+            <span class="edu-time">September 2018 - June 2022</span>
+            <p class="edu-text">Xueersi must be the best educational institution in the world. I have taken many classes here, including math, physics, chemistry, English, programming, etc. Their teachers are exceptionally attentive. There is no shortage of learning atmosphere, the students and teachers are exceptionally smart, and the courses are very difficult, so extra effort is required. Since the Double Reduction Policy in China, this educational institution has faded away.</p>
+        </div>
+    </div>
+    <div class="edu-main">
+        <div class="edu-sub">
+            <a href="https://teensprogramming.com/"><img src="images/teensprogramming.jpg" alt="pic" class="edu"></a>
+            <h3 class="edu-t">Teensprogramming</h3>
+            <div class="edu-st">After-School Program</div>
+            <span class="edu-time">September 2022 - Present</span>
+            <p class="edu-text">This is where I learned to program, the teachers here are very responsible and will teach you a lot. I came to Canada to have a lot of extra time, and it was the right place to learn programming.</p>
+        </div>
+    </div>
+    <div class="edu-main">
+        <div class="flex-grow-1">
+            <a href="https://linkedkey-online.com/login"><img src="images/linkedkey.jpg" alt="pic" class="edu"></a>
+            <h3 class="edu-t">Linkedkey Online</h3>
+            <div class="edu-st">After-School Program</div>
+            <span class="edu-time">September 2022 - Present</span>
+            <p class="edu-text">This is an educational institution run by Chinese people in Canada. It mainly teaches math and can tutor for AMC.</p>
+        </div>
+    </div>
+</section>
+<hr id="sep">
+<section id="achievement">
+    <div id="ach-t">
+        <hr id="edu">
+        <h2 class="edu">My achievements</h2>
+        <hr id="edu">
+    </div>
+    <div id="ach-main">
+        <div class="ach-p" id="A">
+            <p class="ach A"><a href="https://www.amt.edu.au/amc" id="ach">Australian Mathematics Competition</a>: Peter O'Halloran Honor</p>
+            <a href="https://www.wflms.cn/site/site1/detail/10000_6d46d61a-c90a-46a8-8980-511983d0be5b.html"><img src="images/australia_AMC.JPG" id="aus"></a>
+            <p class="ach-sub">Click the picture to get more information.</p>
+            <p class="ach-sub A">Me (middle)</p><br>
+            <p class="ach-sub B">Second row from left to right: Head of Mathematics, Vice Principle, Head of Mathematics</p>
+            <p class="ach C">This must be my proudest award during my junior high school life in Shanghai. Since many local contests are cancelled, I have been participating in international competitions for many years.<br>It's my first time taking this contest, and I surprising get full mark and be one of the 87 people globally who won the <a href="http://www.wfnmc.org/obitpoh.html" id="ach">Peter O'Halloran</a> prize.</p>
+        </div>
+    </div>
     <hr id="sep">
-    <section id="edu">
-        <div id="edu-main-title">
-            <hr id="edu">
-            <h2 class="edu">Education</h2>
-            <hr id="edu">
+    <div id="ach-main">
+        <div class="ach-p" id="A">
+            <p class="ach A"><a href="https://www.mathleague.com/index.php/38-news/569-2022-international-summer-tournament" id="ach">Math League International Summer Challenge</a>: 2 Gold Medals</p>
+            <img src="images/math_league1.png" class="ml">
+            <img src="images/math_league2.png" class="ml">
+            <p class="ach C D">This is a challenging competition. Though it's not that difficult, it requires a high level of accuracy. For the speed round, you need to think fast, and for the individual round, deeper level of thinking is needed. </p>
         </div>
-        <div class="edu-main">
-            <div class="edu-sub">
-                <a href="http://www.jazbsx.com/"><img src="images/sy.jpg" alt="pic" class="edu"></a>
-                <h3 class="edu-t">Jingan District Zhabei Experimental Primary School</h3>
-                <div class="edu-st">Primary School</div>
-                <span class="edu-time">September 2014 - June 2019</span>
-                <p class="edu-text">The beginning of learning. The teachers taught me very well and I learned a lot. There were a lot of after school activities, I was in band, competition classes, etc. I miss the easy elementary school days.</p>
-            </div>
-        </div>
-        <div class="edu-main">
-            <div class="edu-sub">
-               <a href="https://www.wflms.cn/site/site1/index.html"><img src="images/wfla.jpg" alt="pic" class="edu"></a>
-                <h3 class="edu-t">Shanghai World Foreign Language Academy</h3>
-                <div class="edu-st">Junior High School</div>
-                <span class="edu-time">September 2019 - June 2022</span>
-                <p class="edu-text">Time to study hard. Most middle schools in Shanghai are very tiring and boring, but not our school. Although the name of our school seems to be on the international side, subjects like math are not bad at all. In fact, I skyrocketed in math at this school. The thing that helped me the most in my three years of middle school was English. Our school focused a lot on English and had very good English teachers, so my English also took a quantum leap.</p>
-            </div>
-        </div>
-        <div class="edu-main">
-            <div class="edu-sub">
-               <a href="http://eas.scdsb.on.ca/"><img src="images/ess.jpg" alt="pic" class="edu"></a>
-                <h3 class="edu-t">Eastview Secondary School</h3>
-                <div class="edu-st">Secondary School</div>
-                <span class="edu-time">September 2022 - Present</span>
-                <p class="edu-text">This was my first secondary school in Canada, and I felt a different kind of education here than in China. The education here is very relaxed, so it gives me a lot of time to do other things I like to do after school. I used my time to learn programming and made this webpage.</p>
-            </div>
-        </div>
-        <div class="edu-main">
-            <div class="edu-sub">
-               <a href="https://www.hiworld.com/"><img src="images/xes.jpg" alt="pic" class="edu"></a>
-                <h3 class="edu-t">Xueersi (学而思)</h3>
-                <div class="edu-st">After-School Program</div>
-                <span class="edu-time">September 2018 - June 2022</span>
-                <p class="edu-text">Xueersi must be the best educational institution in the world. I have taken many classes here, including math, physics, chemistry, English, programming, etc. Their teachers are exceptionally attentive. There is no shortage of learning atmosphere, the students and teachers are exceptionally smart, and the courses are very difficult, so extra effort is required. Since the Double Reduction Policy in China, this educational institution has faded away.</p>
-            </div>
-        </div>
-        <div class="edu-main">
-            <div class="edu-sub">
-               <a href="https://teensprogramming.com/"><img src="images/teensprogramming.jpg" alt="pic" class="edu"></a>
-                <h3 class="edu-t">Teensprogramming</h3>
-                <div class="edu-st">After-School Program</div>
-                <span class="edu-time">September 2022 - Present</span>
-                <p class="edu-text">This is where I learned to program, the teachers here are very responsible and will teach you a lot. I came to Canada to have a lot of extra time, and it was the right place to learn programming.</p>
-            </div>
-        </div>
-        <div class="edu-main">
-            <div class="flex-grow-1">
-               <a href="https://linkedkey-online.com/login"><img src="images/linkedkey.jpg" alt="pic" class="edu"></a>
-                <h3 class="edu-t">Linkedkey Online</h3>
-                <div class="edu-st">After-School Program</div>
-                <span class="edu-time">September 2022 - Present</span>
-                <p class="edu-text">This is an educational institution run by Chinese people in Canada. It mainly teaches math and can tutor for AMC.</p>
-            </div>
-        </div>
-    </section>
-    <hr id="sep">
-</html>
+    </div>
+</section></html>
