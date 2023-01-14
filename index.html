@@ -11,6 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@100;300;400;500;700&family=Rubik+Distressed&family=Saira+Extra+Condensed:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         * {
             margin: 0;
@@ -245,6 +249,7 @@
             margin-top: 4vh;
             width: 39vw;
             transition: 0.2s;
+            vertical-align: middle;
         }
 
         img.ml:hover {
@@ -253,6 +258,176 @@
 
         p.ach.D {
             margin-top: 4vh;
+        }
+
+        a.ach-a {
+            color: #333333;
+            text-decoration: none;
+            transition: 0.3s;
+            margin-right: 5;
+        }
+
+        p.ach.E {
+            margin: 2vh 0;
+        }
+
+        a.ach-a:hover {
+            text-decoration: underline;
+        }
+
+        div#ach-amc {
+            text-align: center;
+        }
+
+        p.ach-sub.C {
+            margin-left: 3vw;
+        }
+
+        p.ach-sub.F {
+            font-size: 1.8rem;
+            margin-bottom: 10vh;
+        }
+
+        section#hobby {
+            background-image: url(images/winbackground.jpg);
+            width: 100vw;
+            height: 1400px;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            text-align: center;
+            padding: 10vh 0;
+        }
+
+        hr#hob {
+            display: inline-block;
+            width: 10vw;
+            border: 1px solid white;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        h2.hob {
+            font-family: 'Mulish', sans-serif;
+            font-weight: 700;
+            font-size: 35px;
+            display: inline-block;
+            color: white;
+            vertical-align: middle;
+        }
+
+        div#ach-t {
+            margin-bottom: 5vh;
+        }
+
+        h3.hob {
+            font-family: 'Mulish', sans-serif;
+            font-weight: 700;
+            font-size: 30px;
+            color: white;
+            margin-bottom: 3vh;
+        }
+
+        img.hob {
+            height: 50vh;
+            float: left;
+            display: inline-block;
+            margin-top: 5vh;
+            transition: 0.2s;
+        }
+
+        img.hob:hover {
+            transform: scale(1.1);
+        }
+
+        p.hob {
+            font-family: 'Mulish', sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            color: white;
+            display: inline-block;
+            text-align: left;
+        }
+
+        li {
+            font-family: 'Mulish', sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            color: white;
+            text-align: left;
+        }
+
+        section#hobby {
+            padding: 10vh 10vw;
+        }
+
+        div.hob {
+            margin-bottom: 12vh;
+        }
+
+        .altitle {
+            text-align: center;
+        }
+
+        .gallery-section {
+            width: 100%;
+            padding: 60px 0;
+            background: #f1f1f1;
+        }
+
+        .inner-width {
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
+        }
+
+        .border {
+            width: 180px;
+            height: 4px;
+            background: #333;
+            margin: 60px auto;
+        }
+
+        .gallery-section .gallery {
+            display: flex;
+            flex-wrap: wrap-reverse;
+            justify-content: center;
+        }
+
+        .gallery-section .image {
+            flex: 25%;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .gallery-section .image img {
+            width: 100%;
+            height: 100%;
+            transition: 0.4s;
+        }
+
+        .gallery-section .image:hover img {
+            transform: scale(1.4) rotate(10deg);
+        }
+
+        @media screen and (max-width: 960px) {
+            .gallery-section .image {
+                flex: 33.33%;
+            }
+        }
+
+        section#end {
+            padding: 10vh 10vw;
+        }
+
+        p#end {
+            font-style: italic;
+            font-family: 'Mulish', sans-serif;
+            font-weight: 700;
+            font-size: 15px;
+            text-align: right;
+            color: #50555c;
+            margin-top: 5vh;
         }
     </style>
 </head>
@@ -366,4 +541,127 @@
             <p class="ach C D">This is a challenging competition. Though it's not that difficult, it requires a high level of accuracy. For the speed round, you need to think fast, and for the individual round, deeper level of thinking is needed. </p>
         </div>
     </div>
+    <hr id="sep">
+    <div id="ach-main">
+        <div class="ach-p" id="A">
+            <p class="ach A"><a href="https://www.maa.org/math-competitions" id="ach">American Mathematics Competition</a>: As Shown Below</p>
+            <p class="ach E"><a href="https://www.maa.org/math-competitions/amc-8" class="ach-a">AMC8: </a> 2*top 5% and 1*top 1%</p>
+            <p class="ach E"><a href="https://www.maa.org/math-competitions/amc-1012" class="ach-a">AMC10: </a> All qualified to AIME, 1*top 5%</p>
+            <p class="ach E"><a href="https://www.maa.org/math-competitions/amc-1012" class="ach-a">AMC12: </a> All qualified to AIME, 1*top 5%， 1*Young Student Achievement</p>
+            <div id="ach-amc">
+                <img src="images/amchonor.jpeg" class="ml">
+                <p class="ach-sub C">The Awards I've achieved.<br>(Some of those are missing)</p>
+            </div>
+            <p class="ach C D">AMC serious are some of the most popular math competition globaly. Participating in AMC is like breaking through several levels, from easy to hard, from grade 8 to grade 12. </p>
+        </div>
+    </div>
+    <p class="ach-sub F">To Be Continued......</p>
+</section>
+<section id="hobby">
+    <div id="ach-t">
+        <hr id="hob">
+        <h2 class="hob">My hobbies</h2>
+        <hr id="hob">
+    </div>
+    <div class="hob">
+        <h3 class="hob">Piano: The Art of Music</h3>
+        <p class="hob">I've been developing piano as my hobby ever since I was very young. First I seems just to be a task complete, but not until I grew up as more stress appear has it become a real interest. <br>I also achieved lots of progress in this field, including: <br><br>
+            <li>Shanghai Conservatory of Music： Piano Level 10</li>
+            <li>The International Franz Liszt Piano Competition of Utrecht: Participation Award</li>
+        </p>
+    </div>
+    <div class="hob">
+        <h3 class="hob">Sports: The Joy of Exercise</h3>
+        <p class="hob">It's always fun to do sports. I love playing all kind of ball games, including basketball, badminton, tennis, ping pong and so on. <br>I'm a fervent basketball lover. Studying in Canada can bring you lots of spare time after school, especially because their school periods end at 2:18 p.m., which means you can do whatever you wanna do, and I choose to play basketball with my friends in the gym, which can not only keep me fit but also to go social.</p>
+    </div>
+    <div class="hob">
+        <h3 class="hob">Video Games: The way to Entertain</h3>
+        <p class="hob">No boy in the world can refuse video games, neither can I. Though parents always warn us that video games will only make you addicted, I still think it's a good way to relax after hours of studies. My favorite games are Genshin Impact, PUBG, League of Legends, and so on. </p>
+    </div>
+</section>
+<section id="gallery">
+    <div class="gallery-section">
+        <div class="inner-width">
+            <div class="altitle">
+                <h2 class="edu">My Gallery</h2>
+            </div>
+            <div class="border"></div>
+            <div class="gallery">
+                <a href="images/img1.jpg" class="image">
+                    <img src="images/img1.jpg" alt="">
+                </a>
+                <a href="images/amchonor.jpeg" class="image">
+                    <img src="images/amchonor.jpeg" alt="">
+                </a>
+                <a href="images/img2.jpg" class="image">
+                    <img src="images/img2.jpg" alt="">
+                </a>
+                <a href="images/img3.jpg" class="image">
+                    <img src="images/img3.jpg" alt="">
+                </a>
+                <a href="images/img4.jpg" class="image">
+                    <img src="images/img4.jpg" alt="">
+                </a>
+                <a href="images/img5.jpg" class="image">
+                    <img src="images/img5.jpg" alt="">
+                </a>
+                <a href="images/img6.jpg" class="image">
+                    <img src="images/img6.jpg" alt="">
+                </a>
+                <a href="images/img7.jpg" class="image">
+                    <img src="images/img7.jpg" alt="">
+                </a>
+                <a href="images/img8.jpg" class="image">
+                    <img src="images/img8.jpg" alt="">
+                </a>
+                <a href="images/img9.JPG" class="image">
+                    <img src="images/img9.JPG" alt="">
+                </a>
+                <a href="images/img10.JPG" class="image">
+                    <img src="images/img10.JPG" alt="">
+                </a>
+                <a href="images/img11.JPG" class="image">
+                    <img src="images/img11.JPG" alt="">
+                </a>
+                <a href="images/img12.jpg" class="image">
+                    <img src="images/img12.jpg" alt="">
+                </a>
+                <a href="images/img13.JPG" class="image">
+                    <img src="images/img13.JPG" alt="">
+                </a>
+                <a href="images/img14.jpg" class="image">
+                    <img src="images/img14.jpg" alt="">
+                </a>
+                <a href="images/img15.jpg" class="image">
+                    <img src="images/img15.jpg" alt="">
+                </a>
+                <a href="images/img16.jpg" class="image">
+                    <img src="images/img16.jpg" alt="">
+                </a>
+                <a href="images/img17.jpg" class="image">
+                    <img src="images/img17.jpg" alt="">
+                </a>
+                <a href="images/img18.jpg" class="image">
+                    <img src="images/img18.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(".gallery").magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery: {
+                enabled: true
+            }
+        });
+    </script>
 </section></html>
+<section id="end">
+    <div id="edu-main-title">
+        <hr id="edu">
+        <h2 class="edu L">The greatest test of courage on earth is to bear defeat without losing heart.</h2>
+        <hr id="edu">
+    </div>
+    <p id="end">Website made by: Rick Liu</p>
+</section>
